@@ -14,7 +14,7 @@ const Profile = () => {
     try {
       await signOut(auth);
       console.log("User signed out successfully");
-      navigate("/My-Netflix-clone/");
+      navigate("/Netflix-clone/");
     } catch (error) {
       console.error("Error signing out:", error.message);
     }

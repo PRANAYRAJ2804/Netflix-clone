@@ -35,11 +35,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           {!user ? (
-            <Route path="/My-Netflix-clone/" element={<Login />} />
+            <Route path="/Netflix-clone/" element={<Login />} />
           ) : (
             <>
-              <Route path="/My-Netflix-clone/profile" element={<Profile />} />
-              <Route path="/My-Netflix-clone/" element={<Home />} />
+              <Route path="/Netflix-clone/profile" element={<Profile />} />
+              <Route path="/Netflix-clone/" element={<Home />} />
             </>
           )}
         </Routes>

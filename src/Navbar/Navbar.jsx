@@ -22,13 +22,13 @@ const Navbar = () => {
     <div className={`nav ${show && "nav-black"}`}>
       <div className="nav-content">
         <img
-          onClick={() => navigate("/My-Netflix-clone/")}
+          onClick={() => navigate("/Netflix-clone/")}
           className="nav-logo"
           src="https://www.edigitalagency.com.au/wp-content/uploads/netflix-logo-png-large.png"
           alt=""
         />
         <img
-          onClick={() => navigate("/My-Netflix-clone/profile")}
+          onClick={() => navigate("/Netflix-clone/profile")}
           className="nav-avatar"
           src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
           alt=""
