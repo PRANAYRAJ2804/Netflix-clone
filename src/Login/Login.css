@@ -1,0 +1,100 @@
+.loginScreen {
+    position: relative;
+    height: 100vh; /* Ensure the background covers the entire viewport */
+    background: url("https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg") center no-repeat;
+    background-size: cover;
+    overflow: hidden; /* Prevent vertical scrollbar on the body */
+}
+
+.loginScreen-body {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70rem;
+    z-index: 1;
+    color: white;
+    margin-top: 50px;
+}
+
+.loginScreen-background {
+    position: relative;
+    height: 100%;
+}
+
+.loginScreen-gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%,
+    );
+}
+
+.loginScreen-logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.loginScreen-button{
+    position: fixed;
+    right: 20px;
+    top: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+.loginScreen-body h1{
+    font-size: 5vw;
+    margin-bottom: 4vw;
+}
+
+.loginScreen-body h2{
+    font-size: 3.5vw; 
+    margin-bottom: 3vw;
+    font-weight: 400;
+}
+
+.loginScreen-body h3{
+    font-size: 2vw; /* Adjust the font size based on viewport width */
+    margin-bottom: 2vw;
+    font-weight: 400;
+}
+
+.loginScreen-input form input{
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.loginScreen-getStarted{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginScreen-input{
+    margin: 20px;
+}
